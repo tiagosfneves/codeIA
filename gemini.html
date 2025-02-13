@@ -1,0 +1,121 @@
+    <!-- RESULTADO DO 2 PROMPT ( DEEPSEEK ) - INCLUSÃO DO RODAPÉ -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tela de Login</title>
+
+        <!-- STYLE CSS INTERNO -->
+        <style>
+            body {
+                font-family: sans-serif;
+                background-color: #333;
+                color: #fff;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                margin: 0;
+            }
+
+            .login-container {
+                background-color: #444;
+                padding: 40px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                width: 350px;
+                margin-bottom: 20px; /* Espaço entre o container e o rodapé */
+            }
+
+            h1 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .subtitle {
+                text-align: center;
+                margin-bottom: 30px;
+                color: #aaa;
+            }
+
+            .input-group {
+                margin-bottom: 20px;
+            }
+
+            label {
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            input[type="text"],
+            input[type="password"] {
+                width: calc(100% - 12px);
+                padding: 10px;
+                border: 1px solid #666;
+                background-color: #555;
+                color: #eee;
+                border-radius: 4px;
+            }
+
+            button {
+                width: 100%;
+                padding: 10px;
+                background-color: #007bff;
+                color: #fff;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: #0056b3;
+            }
+
+            .links-versoes {
+                text-align: center;
+    /*             padding: 10px;
+                background-color: #333;
+                width: 100%; */
+                position: fixed;
+                bottom: 20px;
+            }
+
+            .links-versoes a {
+                color: #007bff;
+                text-decoration: none;
+                margin: 0 10px;
+            }
+
+            .links-versoes a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="login-container">
+            <h1>Forneça seus acessos</h1>
+            <div class="subtitle">Não tem conta? Crie Aqui</div>
+            <div class="input-group">
+                <label for="login">Login</label>
+                <input type="text" id="login" name="login">
+            </div>
+            <div class="input-group">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha">
+            </div>
+            <button type="submit">Entrar</button>
+        </div>
+
+        <div class="links-versoes">
+            <a href="gemini.html">Gemini</a>
+            <a href="index.html">GPT03</a>
+            <a href="deep.html">DeepSeek</a>
+        </div>
+    </body>
+
+</html>

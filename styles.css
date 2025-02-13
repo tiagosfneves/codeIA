@@ -1,0 +1,116 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2c2f36; /* Fundo escuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Adicionado para garantir que o rodapé fique no final */
+}
+
+/* Container do login */
+.login-container {
+    background-color: #3e4349; /* Cor mais clara para o container */
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    color: #f1f1f1; /* Texto claro */
+    margin-bottom: 10px;
+}
+
+/* Subtítulo */
+.subtitulo {
+    color: #a1a1a1; /* Texto claro */
+    margin-bottom: 20px;
+}
+
+.subtitulo a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.subtitulo a:hover {
+    text-decoration: underline;
+}
+
+/* Grupos de inputs */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    color: #f1f1f1;
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #3e4349;
+    color: #f1f1f1;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #5b9bd5;
+}
+
+/* Botão */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50; /* Cor do botão */
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo do rodapé */
+.links-versoes {
+    /* margin-top: 20px; */
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+}
+
+.links-versoes p {
+    color: #a1a1a1; /* Texto claro */
+}
+
+.links-versoes a {
+    color: #f1f1f1;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.links-versoes a:hover {
+    text-decoration: underline;
+}
